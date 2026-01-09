@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { motion } from "framer-motion";
+import logo from '../assets/logoo.png';
 import { 
   FaEnvelope, 
   FaLock, 
@@ -53,7 +54,7 @@ const LoginPage = ({ onLogin }) => {
               className="inline-flex items-center justify-center w-20 h-20 bg-gradient-to-br from-gray-100 to-white rounded-2xl shadow-lg mb-4 p-3 border-2 border-white"
             >
               <img 
-                src="/src/assets/logoo.png" 
+                src={logo} 
                 alt="Sirkuler Logo"
                 className="w-full h-full object-contain"
                 onError={(e) => {
