@@ -1,8 +1,8 @@
 import { motion } from "framer-motion";
 import { useEffect, useState } from "react";
 import { FaRecycle, FaSeedling } from "react-icons/fa";
-import logo from '../assets/logoo.png';
-import logoo from '/public/logoo.png';
+import logo from '../../assets/logoo.png';
+
 
 const LoadingScreen = () => {
   const [loading, setLoading] = useState(true);
@@ -48,7 +48,7 @@ const LoadingScreen = () => {
               className="w-20 h-20 rounded-full bg-white p-3 flex items-center justify-center"
             >
               <img 
-                src={logoo} 
+                src={logo} 
                 alt="Sirkuler Logo"
                 className="w-full h-full object-contain"
                 onError={(e) => {
