@@ -43,7 +43,7 @@ const Navbar = ({ onNavClick, currentPage }) => {
                 className="w-12 h-12 rounded-xl flex items-center justify-center overflow-hidden bg-emerald-50"
               >
                 <img 
-                  src="/src/assets/logoo.png" 
+                  src="/logoo.png" 
                   alt="Sirkuler Logo"
                   className="w-full h-full object-contain p-1"
                   onError={(e) => {
