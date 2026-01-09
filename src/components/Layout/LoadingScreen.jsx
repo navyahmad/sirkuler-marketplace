@@ -86,7 +86,7 @@ const LoadingScreen = () => {
         className="text-center"
       >
         <h1 className="text-4xl font-bold text-white mb-2">Sirkuler</h1>
-        <p className="text-emerald-200">Mengubah limbah menjadi nilai tambah</p>
+        <p className="text-emerald-200">Mengubah limbah menjadi nilai tambahh</p>
         
         {/* Loading Bar */}
         <div className="mt-8 w-64 h-2 bg-emerald-900 rounded-full overflow-hidden">
