@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 import { useEffect, useState } from "react";
 import { FaRecycle, FaSeedling } from "react-icons/fa";
-import logo from '../../assets/logoo.png';
+import logo from '../assets/logoo.png';
 
 
 const LoadingScreen = () => {
