@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { motion } from "framer-motion";
-import logo from '../assets/logoo.png';
+import logo from '../../assets/logoo.png';
 import { 
   FaEnvelope, 
   FaLock, 
