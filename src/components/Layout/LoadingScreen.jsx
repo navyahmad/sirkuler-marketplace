@@ -48,7 +48,7 @@ const LoadingScreen = () => {
               className="w-20 h-20 rounded-full bg-white p-3 flex items-center justify-center"
             >
               <img 
-                src="/logoo.png" 
+                src={logo} 
                 alt="Sirkuler Logo"
                 className="w-full h-full object-contain"
                 onError={(e) => {
