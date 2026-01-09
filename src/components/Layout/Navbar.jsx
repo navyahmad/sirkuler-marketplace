@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { motion } from "framer-motion";
+import logo from '../assets/logoo.png';
 import { 
   FaHome, 
   FaShoppingCart, 
@@ -43,7 +44,7 @@ const Navbar = ({ onNavClick, currentPage }) => {
                 className="w-12 h-12 rounded-xl flex items-center justify-center overflow-hidden bg-emerald-50"
               >
                 <img 
-                  src="/logoo.png" 
+                  src={logo} 
                   alt="Sirkuler Logo"
                   className="w-full h-full object-contain p-1"
                   onError={(e) => {
