@@ -73,7 +73,7 @@ const Footer = ({ onNavClick }) => {
             >
               <div className="flex items-center space-x-3 mb-4">
                 <div className="w-12 h-12 rounded-xl flex items-center justify-center bg-emerald-50">
-                  <img src="/src/assets/logoo.png" alt="" />
+                  <img src="/logo-sirkuler.png"  alt="" />
                 </div>
                 <div>
                   <h3 className="text-xl sm:text-2xl font-bold">Sirkuler</h3>
