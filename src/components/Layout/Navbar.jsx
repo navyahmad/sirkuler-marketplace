@@ -60,7 +60,7 @@ const Navbar = ({ onNavClick, currentPage }) => {
               />
             </div>
             <div>
-              <h1 className="text-2xl font-bold text-emerald-800">Sirkulernavy</h1>
+              <h1 className="text-2xl font-bold text-emerald-800">Sirkuler</h1>
               <p className="text-xs text-emerald-600 -mt-1">Economy Platform</p>
             </div>
           </motion.div>
